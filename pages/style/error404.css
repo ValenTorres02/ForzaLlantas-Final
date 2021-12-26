@@ -1,0 +1,54 @@
+
+*{
+    background-color:black;
+}
+
+.home{
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 100px;
+    position: relative;
+    left:41%;
+}
+
+.noEncontrada{
+    color: gold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    font-style: oblique;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.gif{
+    position: relative;
+    left: 17.5%;
+    width: 65%;
+}
+
+@media only screen and (max-width: 640px){
+    .gif{
+        position: relative;
+        left: 1%;
+        width: 300px;
+        height: 220px;
+    }
+
+    .noEncontrada{
+        font-size: 30px;
+    }
+
+    .home{
+        position: relative;
+        left: 5%;
+        top:40px;
+    }
+
+}

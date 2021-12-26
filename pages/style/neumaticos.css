@@ -1,0 +1,445 @@
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/*header-----------------------------------------*/
+
+.cabeza{
+
+    background-image: linear-gradient(to right, darkgrey,darkgray, rgb(0, 0, 0));
+}
+
+.envios{
+    background-color:gold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: small;
+    font-style: oblique;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.logoPagina{
+    margin-left: 5%;
+    margin-top: 5%;
+    border:solid;
+    position:relative;
+    display:inline-flex;
+    margin-bottom:5%;
+    }
+
+.links{
+    padding-left:6%;
+    list-style: none;
+    display:inline-flex;
+    font-size: larger;
+    font-style: oblique;
+    right: 20px;
+    top:40px;
+    text-decoration: none;
+    font-size:35px;
+    }
+    
+.linkhome{
+    position: relative;
+     color:black;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:100px;
+    right:10px;
+    text-decoration: none;
+    font-size:35px;
+    margin:12px;
+    }
+    
+.linkProducto{
+    position: relative;
+    color:black;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:195px;
+    left:390px;
+    text-decoration: none;
+    font-size:35px;
+    }
+    
+.linkContacto{
+    position: relative;
+    color:black;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:240px;
+    left:550px;
+    text-decoration: none;
+    font-size:35px;
+    }
+
+.subMenus{
+    list-style: none;
+    }
+    
+.links > subMenus {
+    float:left;
+    }
+    
+.links li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+    }
+    
+.links li:hover > ul{
+    display: block;
+    }
+    
+.InstagramSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:100px;
+    left:-40px;
+    text-decoration: none;
+    font-size:35px;
+    }
+    
+.FacebookSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:100px;
+    left:-45px;
+    text-decoration: none;
+    font-size:35px;
+    }
+    
+.WppSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    bottom:100px;
+    left:-45px;
+    text-decoration: none;
+    font-size:35px;
+    }
+
+/*body--------------------------------------------*/
+
+body{
+    margin:0 auto;
+    background-color:rgb(223, 219, 219);
+}
+
+.datosPersonales{
+    background-color:gold ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-style: oblique;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenProducto{
+    margin-left: 20%;
+    border:solid;
+    display: inline-flex;
+    position: relative;
+    bottom:60px;
+}
+
+.nombreProducto{
+    padding-left: 60%;
+    
+}
+
+.precio{
+    padding-left: 60%;
+    font-size: 500%;
+}
+
+.comprarCarrito{
+    padding-left: 60%;
+    padding-bottom: 20px;   
+}
+
+.llantas{
+    position: relative;
+    color:black;
+    display:inline-flex;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.neumaticos{
+    position: relative;
+    color:black;
+    display:inline-flex;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: oblique;
+}
+    
+/*footer-------------------------------------------*/
+
+.parteAbajo{
+    background-color:gold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: small;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-image: linear-gradient(to right, darkgrey,darkgray, rgb(0, 0, 0));
+}
+
+.redesSociales{
+    padding-left: 93%;
+    padding-bottom: 2px;
+    list-style: none;
+}
+
+.logoPaginaAbajo{
+    margin-left: 5%;
+    margin-top: 5%;
+    border:solid;
+    position:relative;
+    display:inline-flex;
+}
+
+.comunicacion__txt{
+    list-style:none;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+}
+
+.comunicacion__contacto2{
+    color:gold;
+    list-style:none;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+}
+
+.comunicacion__contacto{
+    position: relative;
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:35px;
+    list-style: none;
+    right: 15px;
+    bottom: 2px;
+}
+
+.Instagram{
+    position: relative;
+    color:gold;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.Facebook{
+    position: relative;
+    color:gold;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.Wpp{
+    position: relative;
+    color:gold;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+}
+
+@media only screen and (max-width: 640px){
+
+    .envios{
+        font-size: 7px;
+    }
+
+    .links{
+        list-style: none;
+        position: relative;
+        color:black;
+        display:block;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        font-size: larger;
+        font-style: oblique;
+        text-decoration: none;
+        font-size:35px;
+        margin-top:15px;
+        margin-bottom:15px;
+        top:75px;
+        left:2px;
+    }
+    
+    .linkhome{
+        position: relative;
+        color:black;
+        display:inline-flex;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        font-size: larger;
+        font-style: oblique;
+        text-decoration: none;
+        font-size:35px;
+        margin:12px;
+    }
+
+    .logoPagina2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .llantas{
+        position: relative;
+        color:black;
+        display:inline-flex;
+        text-decoration: none;
+        font-size: 20px;
+        left: 50px;
+    }
+
+    .neumaticos{
+        position: relative;
+        color:black;
+        display:inline-flex;
+        text-decoration: none;
+        font-size: 20px;
+        right: 100px;
+    }
+
+    .Productos__1{
+        width: 90px;
+        height: 90px;
+    }
+
+    .Productos__2{
+        width: 90px;
+        height: 90px;
+    }
+
+    .Productos__3{
+        width: 90px;
+        height: 90px;
+    }
+
+    .h3__img{
+        font-size: 15px;
+    }
+
+    .h1__img{
+        font-size: 20px;
+    }
+
+    .productos{
+        position: relative;
+        right: 180px;
+        display: grid;
+        gap:10px;
+    }
+
+    .logoPaginaAbajo2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .redesSociales{
+        position: relative;
+        top: 1px;
+        right: 280px;
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    .Instagram{
+        font-size: smaller;
+        position: relative;
+        left: 170px;
+        bottom: 120px;
+    }
+
+    .comunicacion__txt{
+        position: relative;
+        left: -325px;
+        font-size: 20px;
+        top: -50px;
+    }
+
+    .comunicacion__contacto2{
+        position: relative;
+        left: -485px; 
+        top:-33px;
+        color: gold;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .comunicacion__contacto{
+        position: relative;
+        color:gold;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        font-size: larger;
+        font-style: oblique;
+        text-decoration: none;
+        font-size:35px;
+        list-style: none;
+        right: 15px;
+        bottom: 2px;
+    }
+
+}

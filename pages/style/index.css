@@ -1,0 +1,524 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/*header-----------------------------------------*/
+
+
+.cabeza{
+
+    background-image: linear-gradient(to right, darkgrey,darkgray, rgb(0, 0, 0));
+}
+
+.envios{
+    background-color:gold;
+    font-family: 'Bebas Neue', cursive;
+    font-style: oblique;
+    letter-spacing: 1%;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+
+.logoPagina{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position:relative;
+    display:inline-flex;
+    border: yellow;
+}
+
+.links{
+    list-style: none;
+    position: relative;
+    color:black;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    right: 300px;
+    top:40px;
+    text-decoration: none;
+    font-size:35px;
+}
+
+.linkHome{
+    position: relative;
+    color:black;
+    display:inline-flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:35px;
+    margin:12px;
+}
+
+.subMenus{
+    list-style: none;
+}
+
+.links > subMenus {
+    float:left;
+}
+
+.links li ul{
+    display:none;
+    position:relative;
+    min-width: 10%;
+    top:200%;
+    right: 43%;
+}
+
+.links li:hover > ul{
+    display: block;
+}
+
+.InstagramSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:35px;
+}
+
+.FacebookSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:35px;
+}
+
+.WppSubMenu{
+    position: relative;
+    color:gold;
+    display:block;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:35px;
+}
+
+/*body------------------------------------------*/
+
+body{
+    margin:0 auto;
+    background-color:rgb(223, 219, 219);
+}
+
+.FORD{
+    position:relative;
+    bottom:23px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerResponsive{
+    display:none;
+}
+
+.marcasSeleccionadas{
+    background-color:gold ; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    font-style: oblique;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.masVendidos{
+    background-color:gold ;  
+    font-family: 'Bebas Neue', cursive;
+    font-size:larger;
+    font-style: oblique;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenesMarcas{
+    padding-left: 15%;
+    letter-spacing: 100px;
+}
+
+/*ANIMACIONES--------------------------------------*/
+
+.BMW{
+    height: 150px;
+    width: 150px;
+    transition: height 0.5s, width 0.5s;
+}
+
+.BMW:hover{
+    height: 165px;
+    width: 165px;
+}
+
+.VOLKSWAGEN{
+    height: 150px;
+    width: 150px;
+    transition: height 0.5s, width 0.5s;
+}
+
+.VOLKSWAGEN:hover{
+    height: 165px;
+    width: 165px;
+}
+
+.TOYOTA{
+    height: 150px;
+    width: 200px;
+    transition: height 0.5s, width 0.5s;
+}
+
+.TOYOTA:hover{
+    height: 165px;
+    width: 215px;
+}
+
+.FORD{
+    height: 100px;
+    width: 250px;
+    transition: height 0.5s, width 0.5s;
+}
+
+.FORD:hover{
+    height: 110px;
+    width: 265px;
+}
+
+.FIAT{
+    height: 150px;
+    width: 150px;
+    transition: height 0.5s, width 0.5s;
+}
+
+.FIAT:hover{
+    height: 165px;
+    width: 165px;
+}
+
+/*ANIMACIONES---------------------------------------*/
+
+.imagenesMasVendidos{
+    padding-left: 10%;
+}
+
+.tabla{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.imgFiatStrada{
+    position:relative;
+    left:60px;
+    border:solid;
+}
+
+.imgFordFiesta{
+    position: relative;
+    left:360px;
+    border:solid;
+}
+
+.imgGolf{
+    position: relative;
+    left:660px;
+    border:solid;
+}
+
+.imgGolfGti{
+    position: relative;
+    top:400px;
+    right:700px;
+    border:solid;
+}
+
+.imgNivus{
+    position: relative;
+    top:400px;
+    right: 400px;
+    border:solid;
+}
+
+.imgTCross{
+    position: relative;
+    top:400px;
+    right: 100px;
+    border:solid;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenedorImg{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+    position: relative;
+    left: 29%;
+    padding-bottom: 120px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+    font-style: oblique;
+}
+
+.img{
+    background-color: gold;
+    border:solid;
+}
+
+/*footer-----------------------------------------*/
+
+.footer{
+    top: 450px;
+    background-image: linear-gradient(to right, darkgrey,darkgray, rgb(0, 0, 0));
+}
+
+.parteAbajo{
+    background-color: gold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+    font-style: oblique;
+    top:500px;
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+}
+
+.redesSociales{
+    padding-left:93%;
+    padding-bottom: 2px;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.logoPaginaAbajo{
+    margin-left: 5%;
+    margin-top: 5%;
+    border:solid;
+    position:relative;
+    display:inline-flex;
+}
+
+.Instagram{
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.Facebook{
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.Wpp{
+    color:gold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: oblique;
+    text-decoration: none;
+    font-size:30px;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+}
+
+.comunicacion__contacto2{
+    color:gold;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*MEDIAQUIRES--------------------------------*/
+
+@media only screen and (max-width: 640px){
+
+
+    .links{
+      position: relative;
+      right: 320px; 
+      top: 150px; 
+      display: block;
+      font-size: 25px;
+      color:gold;
+    }
+
+    .logoPagina2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .linkHome{
+        color: gold;
+        position: relative;
+        bottom: 180px;
+        left: 363px;
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 50px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 50px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 50px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 50px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 65px;
+        position: relative;
+        top: 1px;
+    }
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: 20px;
+    }
+
+    .banner__desktop{
+        display: none;
+    }
+
+    .banner__responsive{
+        width: auto;
+        height: 420px;
+    }
+
+    .contenedorImg{
+        height: auto;
+        width: 20px;
+        gap: 10px;
+        left: 25px;
+    }
+
+    .img1{
+        height: auto;
+        width: 80px;
+    }
+
+    .h3__img{
+        font-size: 15px;
+    }
+
+    .h1__img{
+        font-size: 20px;
+    }
+
+    .redesSociales{
+        position: relative;
+        top: 1px;
+        right: 280px;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .Instagram{
+        font-size: 25px;
+        position: relative;
+        left: 170px;
+        bottom: 120px;
+    }
+
+    .comunicacion{
+        display: inline-flex;
+        position: relative;
+        left: 350px;
+        top:250px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        font-size: larger;
+        font-style: oblique;
+    }
+       
+    .comunicacion__contacto{
+        position: relative;
+        color:gold;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        font-size: larger;
+        font-style: oblique;
+        text-decoration: none;
+        font-size:35px;
+        list-style: none;
+        right: 15px;
+        bottom: 2px;
+    }
+    
+    .logoPaginaAbajo2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .comunicacion__txt{
+        position: relative;
+        right: 320px;
+        font-size:25px;
+    }
+
+    .comunicacion__contacto2{
+        position: relative;
+        right: 450px; 
+        top:20px;
+        color: gold;
+        list-style: none;
+        font-size:25px;
+    }
+}
+
+
