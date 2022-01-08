@@ -417,6 +417,7 @@ body{
         left: -325px;
         font-size: 20px;
         top: -50px;
+        display:none;
     }
 
     .comunicacion__contacto2{
@@ -440,6 +441,7 @@ body{
         list-style: none;
         right: 15px;
         bottom: 2px;
+        display:none;
     }
 
 }

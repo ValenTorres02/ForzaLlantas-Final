@@ -476,7 +476,7 @@ body{
     }
 
     .comunicacion{
-        display: inline-flex;
+        display:none;
         position: relative;
         left: 350px;
         top:250px;
@@ -498,6 +498,7 @@ body{
         list-style: none;
         right: 15px;
         bottom: 2px;
+        display:none;
     }
     
     .logoPaginaAbajo2{
@@ -509,6 +510,7 @@ body{
         position: relative;
         right: 320px;
         font-size:25px;
+        display:none;
     }
 
     .comunicacion__contacto2{
