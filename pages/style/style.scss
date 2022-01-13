@@ -272,7 +272,11 @@ body{
     justify-content: center;
 }
 
-@media only screen and (max-width: 640px){
+
+/*MEDIAQUERIES---------------------------------*/
+
+/*MOBILE-----------------------------------------*/
+@media only screen and (max-width: 1023px){
     .productos{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -293,4 +297,5 @@ body{
         }
     }
 }
+
 

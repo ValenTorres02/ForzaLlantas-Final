@@ -7,7 +7,6 @@
 
 
 .cabeza{
-
     background-image: linear-gradient(to right, darkgrey,darkgray, rgb(0, 0, 0));
 }
 
@@ -309,8 +308,7 @@ body{
 }
 
 .redesSociales{
-    padding-left:93%;
-    padding-bottom: 2px;
+    padding-left:10%;
     list-style: none;
     display: flex;
     justify-content: end;
@@ -334,7 +332,7 @@ body{
     text-decoration: none;
     font-size:30px;
     display: flex;
-    justify-content: end;
+    right: 100px;
     flex-direction: column;
 }
 
@@ -372,7 +370,8 @@ body{
 
 /*MEDIAQUIRES--------------------------------*/
 
-@media only screen and (max-width: 640px){
+/*MOBILE ----------------------------------------*/
+@media only screen and (max-width: 1023px){
 
 
     .links{
@@ -523,4 +522,441 @@ body{
     }
 }
 
+/*MOBILE L------------------------------------------------------------*/
+@media only screen and (min-width: 425px) and (max-width: 767px){
 
+    .contenedorImg{
+        height: auto;
+        width: 20px;
+        gap: 40px;
+        left: 25px;
+        top:40px;
+    }
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: 15px;
+        margin:5px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 50px;
+        margin:5px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 50px;
+        margin:5px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 50px;
+        margin:5px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 50px;
+        margin:5px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 65px;
+        position: relative;
+        top: 1px;
+        margin:5px;
+    }
+
+}
+
+/*TABLET------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: 50px;
+        margin:5px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 75px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 75px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 75px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 75px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 110px;
+        position: relative;
+        top: 1px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .links{
+        position: relative;
+        right: 350px; 
+        top: 100px; 
+        display: inline-flex;
+        font-size: 25px;
+        color:gold;
+    }
+
+    .logoPagina2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedorImg{
+        height: auto;
+        width: 20px;
+        gap: 60px;
+        left: 75px;
+        top:40px;
+    }
+
+    .img1{
+        height: auto;
+        width: 150px;
+    }
+
+    .logoPaginaAbajo2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .Instagram{
+        font-size: 25px;
+        position: relative;
+        left: 170px;
+        bottom: 20px;
+    }
+
+}
+
+/*LAPTOP--------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: 20px;
+        margin:5px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 150px;
+        position: relative;
+        top: 1px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .links{
+        position: relative;
+        right: 320px; 
+        top: 100px; 
+        display: inline-flex;
+        font-size: 25px;
+        color:gold;
+    }
+
+    .logoPagina2{
+        width: 175px;
+        height: 175px;
+    }
+
+    .contenedorImg{
+        height: auto;
+        width: 20px;
+        gap: 100px;
+        left: 125px;
+        top:40px;
+    }
+
+    .img1{
+        height: auto;
+        width: 180px;
+    }
+
+    .logoPaginaAbajo2{
+        width: 175px;
+        height: 175px;
+    }
+
+    .Instagram{
+        font-size: 25px;
+        position: relative;
+        left: -75px;
+        bottom: 20px;
+    }
+
+    .comunicacion__txt{
+        position: relative;
+        right: 75px;
+        font-size:25px;
+    }
+
+    .comunicacion__contacto2{
+        position: relative;
+        right: 80px; 
+        top:-10px;
+        color: gold;
+        list-style: none;
+        font-size:25px;
+    }
+
+}
+
+/*LAPTOP LARGE---------------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) and (max-width: 2559px){
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: -100px;
+        margin:5px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 140px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 175px;
+        position: relative;
+        top: 1px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .links{
+        position: relative;
+        right: 320px; 
+        top: 100px; 
+        display: inline-flex;
+        font-size: 25px;
+        color:gold;
+    }
+
+    .logoPagina2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .contenedorImg{
+        height: auto;
+        width: 10px;
+        gap: 150px;
+        left: 250px;
+        top:40px;
+    }
+
+    .img1{
+        height: auto;
+        width: 200px;
+    }
+
+    .logoPaginaAbajo2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Instagram{
+        font-size: 25px;
+        position: relative;
+        left: -60px;
+        bottom: 20px;
+    }
+
+}
+
+/*4K-------------------------------------------------------------*/
+@media only screen and (min-width: 2560px) and (max-width: 5000px){
+
+    .imagenesMarcas{
+        display: inline-flex;
+        position: relative;
+        right: -500px;
+        margin:5px;
+    }
+
+    .BMW{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .VOLKSWAGEN{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .TOYOTA{
+        height: auto;
+        width: 140px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FIAT{
+        height: auto;
+        width: 100px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .FORD{
+        height: auto;
+        width: 175px;
+        position: relative;
+        top: 1px;
+        margin-right:50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .links{
+        position: relative;
+        right: 320px; 
+        top: 100px; 
+        display: inline-flex;
+        font-size: 25px;
+        color:gold;
+    }
+
+    .logoPagina2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedorImg{
+        height: auto;
+        width: 10px;
+        gap: 150px;
+        left:700px;
+        top:40px;
+    }
+
+    .img1{
+        height: auto;
+        width: 300px;
+    }
+
+    .logoPaginaAbajo2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Instagram{
+        font-size: 25px;
+        position: relative;
+        left: -60px;
+        bottom: 20px;
+    }
+
+}
